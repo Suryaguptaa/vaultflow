@@ -82,6 +82,7 @@ public class FinancialRecordService {
     }
 
     private FinancialRecord findRecordOrThrow(UUID id) {
+
         return recordRepository.findById(id)
                 .orElseThrow(() -> new AppException("Record not found", HttpStatus.NOT_FOUND));
     }
