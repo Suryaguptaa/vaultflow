@@ -152,7 +152,7 @@ psql --version       # Should print: psql (PostgreSQL) 14.x or higher
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/vaultflow.git
+git clone https://github.com/Suryaguptaa/vaultflow.git
 cd vaultflow
 ```
 
